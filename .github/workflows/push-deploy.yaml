@@ -20,7 +20,7 @@ on:
       - main
 jobs:
   push-deploy:
-    runs-on: [self-hosted, is-enabled]
+    runs-on: self-hosted
     steps:
     - uses: actions/checkout@v2
     - name: Push latest images to GCR
