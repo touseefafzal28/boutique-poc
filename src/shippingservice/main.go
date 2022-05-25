@@ -33,7 +33,7 @@ import (
 	"google.golang.org/grpc/reflection"
 	"google.golang.org/grpc/status"
 
-	pb "github.com/touseefafzal28/boutique-poc/blob/main/src/shippingservice/genproto/demo.pb.go"
+	pb "github.com/touseefafzal28/boutique-poc/main/src/shippingservice/genproto"
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 )
 
