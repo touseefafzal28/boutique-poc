@@ -34,4 +34,4 @@ jobs:
         skaffold build --default-repo=gcr.io/$PROJECT_ID \
                        --tag=latest
       env:
-        PROJECT_ID: ${{ secrets.PROJECT_ID }}
+        PROJECT_ID: "praxis-dolphin-350405"
