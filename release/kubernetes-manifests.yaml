@@ -221,7 +221,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: gcr.io/praxis-dolphin-350405/refs/heads/main/frontend:734b9c9122560006abbb56f713e81691d6171970
+          image: gcr.io/praxis-dolphin-350405/frontend:latest
           ports:
           - containerPort: 8080
           readinessProbe:
