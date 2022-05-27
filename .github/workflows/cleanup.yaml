@@ -33,6 +33,6 @@ jobs:
           kubectl delete namespace $NAMESPACE
         env:
           PROJECT_ID: "praxis-dolphin-350405"
-          PR_CLUSTER: "onlineboutique"
+          PR_CLUSTER: "onlinebotique"
           ZONE: "us-central1-b"
           PR_NUMBER: ${{ github.event.number }}

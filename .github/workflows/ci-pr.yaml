@@ -76,7 +76,7 @@ jobs:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: true
         PR_NUMBER: ${{ github.event.pull_request.number }}
         PROJECT_ID: "praxis-dolphin-350405"
-        PR_CLUSTER: "onlineboutique"
+        PR_CLUSTER: "onlinebotique"
         ZONE: "us-central1-b"
     - name: Wait For Pods
       timeout-minutes: 20

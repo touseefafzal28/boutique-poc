@@ -73,7 +73,7 @@ jobs:
       env:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: true
         PROJECT_ID: "praxis-dolphin-350405"
-        PR_CLUSTER: "onlineboutique"
+        PR_CLUSTER: "onlinebotique"
         ZONE: "us-central1-b"
     - name: Wait For Pods
       timeout-minutes: 20
