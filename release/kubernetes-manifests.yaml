@@ -221,7 +221,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: gcr.io/google-samples/microservices-demo/frontend:v0.3.7
+          image: gcr.io/praxis-dolphin-350405/refs/heads/main/frontend
           ports:
           - containerPort: 8080
           readinessProbe:
